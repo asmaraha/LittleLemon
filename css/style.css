@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #eaeaea;
+    border-bottom: 2px solid #333;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 10px;
+}
+.h1 {
+    font-size: 36px;
+    color: darkgreen;
+    font-family: Georgia, Times, serif;
+}
+nav {
+    width: 100%;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: square;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.banner {
+    background-image: url('../img/banner.png');
+    background-size: 1250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    text-align: left;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+.banner p {
+    font-size: 1.2em;
+    max-width: 700px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.content-item {
+    background-color: blanchedalmond;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.content-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content-item h3 {
+    margin: 20px 0 10px;
+}
+
+.content-item p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.content-item a {
+    color: #0073e6;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 2px solid #333;
+}
+
+.footer-logo img {
+    width: 50px;
+}
+
+.footer-copy {
+    font-size: 0.9em;
+}
